@@ -1,0 +1,65 @@
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+input[type="number"] {
+  width: 70px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 5px;
+}
+
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  background: #fff
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAKUlEQVQYlWNgwAT/sYhhKPiPT+F/LJgEsHv37v+EMGkmkuImoh2NoQAANlcun/q4OoYAAAAASUVORK5CYII=)
+    no-repeat center center;
+  width: 1em;
+  border-left: 1px solid #bbb;
+  opacity: 0.6; /* shows Spin Buttons per default (Chrome >= 39) */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.price-block {
+  width: 400px;
+  height: 400px;
+}
+.main {
+  margin: 30px 10px 0px 10px;
+}
+.adding {
+  margin-left: 260px;
+  color: aliceblue;
+}
+.sidebar-title,
+.book-cost,
+.total-book-cost,
+.form-label {
+  font-size: 1.1em;
+}
+.section {
+  
+  padding-left: 0;
+}
+.title-book-description {
+  margin-left: 80px;
+  text-align: left;
+}
+
+.text-description {
+  text-align: justify;
+  padding-left: 500px;
+}
+#count {
+  width: 25%;
+}

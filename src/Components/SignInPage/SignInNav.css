@@ -1,0 +1,23 @@
+.navSign {
+  margin: 0;
+  padding: 15px;
+  display: flex;
+  text-align: left;
+  font-size: 1.3em;
+  background-color: rgb(193, 193, 214);
+  opacity: 0.8;
+}
+.logoSign {
+  display: block;
+  margin-top: 5px;
+  border: 1px solid rgb(112, 111, 111);
+  border-radius: 25px;
+}
+.logoName {
+  margin-left: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family: "Monoton", cursive;
+
+  word-spacing: 5px;
+}

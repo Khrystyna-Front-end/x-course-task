@@ -1,0 +1,43 @@
+.login {
+  width: 25%;
+}
+
+.label-form,
+.login,
+.sign-in-btn {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login,
+.sign-in-btn {
+  width: 200px;
+}
+
+.label-form,
+.sign-in-btn {
+  display: block;
+  margin-top: 15px;
+}
+.link-to-books {
+  color: aliceblue;
+  text-decoration: none;
+}
+.link-to-books:hover {
+  color: rgb(221, 252, 50);
+  text-decoration: underline;
+}
+@media (width: 320px) {
+  form {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .login,
+  .sign-in-btn {
+    width: 304px;
+    display: absolute;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,9 @@
+.link-sign-out {
+  color: white;
+  text-decoration: none;
+}
+
+.link-sign-out:hover {
+  color: yellow;
+  text-decoration: underline;
+}

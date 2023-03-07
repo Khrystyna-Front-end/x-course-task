@@ -1,0 +1,11 @@
+#button-adding {
+  margin: 0;
+  width: 132px;
+}
+#button-back {
+  font-size: 12px;
+  width: 60px;
+}
+.link-back {
+  color: rgb(148, 150, 189);
+}

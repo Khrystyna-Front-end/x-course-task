@@ -1,0 +1,61 @@
+.nav {
+  margin: 0;
+  padding: 15px;
+  text-align: left;
+  font-size: 1.3em;
+  background-color: rgb(193, 193, 214);
+  opacity: 0.8;
+  justify-content: space-between;
+}
+.logo {
+  display: block;
+  margin-top: 5px;
+  border: 1px solid rgb(112, 111, 111);
+  border-radius: 25px;
+}
+h1 {
+  margin-left: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family: "Monoton", cursive;
+
+  word-spacing: 5px;
+}
+
+.cart {
+  display: block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: 0.5s;
+  filter: brightness(240%);
+}
+
+.avatarMini {
+  display: block;
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sign-out {
+  height: 40px;
+  display: block;
+  margin-right: 20px;
+}
+h6 {
+  margin-right: 20px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.cart:hover,
+.avatarMini:hover,
+.userName:hover,
+.col-auto:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}

@@ -1,0 +1,40 @@
+h6 {
+  margin-right: 20px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+#book-block {
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 10px;
+  height: 600px;
+ }
+
+.card-img-top {
+  box-shadow: 0 0.5rem 1rem rgb(39, 41, 33), 0.15;
+  height: 320px;
+}
+
+.btn-review {
+  font-size: 10px;
+  opacity: 0.3;
+  padding: 0;
+  margin: 0;
+}
+
+#btn-preview {
+  font-size: 30px;
+  opacity: 0.3;
+  margin-right: 15px;
+}
+
+.short-description {
+  color: black;
+}
+
+.card-body {
+  padding-top: 0;
+}

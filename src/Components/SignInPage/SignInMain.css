@@ -1,0 +1,81 @@
+.sign-in-container {
+  margin-top: 5px;
+  width: 100%;
+  height: 470px;
+}
+
+.slide-show {
+  overflow: hidden;
+  position: relative;
+  border: 1px none rgba(209, 207, 213, 0.4);
+  border-radius: 20px 200px 10px 100px;
+  width: 440px;
+  height: 480px;
+}
+
+.slides-inner {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  transform: translate3d(0, 0, 0);
+  transition: 1000ms;
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  border: 1px solid rgb(247, 238, 238);
+  border-radius: 25px;
+  margin: 15px auto 48px auto;
+}
+
+.animationPulse {
+  font-size: 2em;
+  color: transparent;
+  background-image: url("https://www.5.ua/media/pictures/original/146560.jpg?t=1534932390");
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: cover;
+  background-position: center;
+  animation: pulse 0.8s linear infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@media (width: 320px) {
+  main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  h1 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .avatar {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 15px auto 48px auto;
+  }
+
+  .sign-in-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .slide-show,
+  .slides-inner {
+    display: none;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+}

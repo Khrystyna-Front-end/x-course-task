@@ -1,0 +1,13 @@
+.error-block {
+  margin: 50px auto 130px;
+}
+.errorMsg {
+  color: rgb(117, 116, 116);
+  font-size: 80px;
+  font-family: "Fredoka One", cursive;
+}
+.msgError {
+  font-size: 30px;
+  color: rgb(117, 116, 116);
+  font-family: "Noto Sans Symbols 2", sans-serif;
+}
